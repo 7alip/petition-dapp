@@ -62,6 +62,17 @@ const Auth = ({ isPage }) => {
             If you have the extension already, please refresh the page after
             login your wallet account.
           </Text>
+          <Text>
+            For mor information please visit{' '}
+            <Link
+              target="_blank"
+              href="https://github.com/7alip/petition-dapp"
+              color="brand"
+              fontWeight="bold"
+            >
+              repo
+            </Link>
+          </Text>
         </Stack>
       </Stack>
     </Container>
