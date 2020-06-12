@@ -16,6 +16,7 @@ This app configured for RSK testnet network. In order to test the application yo
 ### 2. Configure Nifty Wallet to connect to RSK testnet
 
     * Open Networks tab and select RKS Testnet
+    * Copy your account address and get some free eth from [Faucet RSK](https://faucet.rsk.co/)
 
 ### Start application
 
