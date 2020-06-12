@@ -9,6 +9,7 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
+  Link,
   Flex,
   useDisclosure,
   IconButton,
@@ -20,7 +21,7 @@ import {
   DrawerBody,
 } from '@chakra-ui/core';
 import Container from './Container';
-import { Link as RouterLink, Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 import { AuthContext } from '../../App';
 
 const HeaderNav = props => {
@@ -54,7 +55,12 @@ const HeaderNav = props => {
           </MenuButton>
           <MenuList>
             <MenuItem textAlign="center" wordBreak="break-all">
-              {account}
+              <Link
+                href={`https://explorer.testnet.rsk.co/address/${account}`}
+                target="_blank"
+              >
+                Explore Account
+              </Link>
             </MenuItem>
           </MenuList>
         </Menu>
