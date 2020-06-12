@@ -4,19 +4,19 @@ This app configured for RSK testnet network. In order to test the application yo
 
 ### 1. Configure Metamask to connect to RSK testnet
 
-    * Open Networks tab and select Custom RPC
-    * Fill the form as below and save:
-        - Network Name: RSK Testnet
-        - New RPC URL: https://public-node.testnet.rsk.co/2.0.1
-        - ChainID: 31
-        - Symbol: RBTC
-        - Block Explorer URL: https://explorer.testnet.rsk.co
-    * Copy your account address and get some free eth from [Faucet RSK](https://faucet.rsk.co/)
+* Open Networks tab and select Custom RPC
+* Fill the form as below and save:
+   - Network Name: RSK Testnet
+   - New RPC URL: https://public-node.testnet.rsk.co/2.0.1
+   - ChainID: 31
+   - Symbol: RBTC
+   - Block Explorer URL: https://explorer.testnet.rsk.co
+* Copy your account address and get some free eth from [Faucet RSK](https://faucet.rsk.co/)
 
 ### 2. Configure Nifty Wallet to connect to RSK testnet
 
-    * Open Networks tab and select RKS Testnet
-    * Copy your account address and get some free eth from [Faucet RSK](https://faucet.rsk.co/)
+* Open Networks tab and select RKS Testnet
+* Copy your account address and get some free eth from [Faucet RSK](https://faucet.rsk.co/)
 
 ### Start application
 
